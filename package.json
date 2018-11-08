@@ -9,6 +9,7 @@
   "gitHooks": {
     "post-merge": "node scripts/post-merge.js",
     "commit-msg": "node scripts/commit-msg.js",
+    "pre-push": "node scripts/pre-push.js",
     "post-commit": "node scripts/post-commit.js"
   },
   "repository": {
